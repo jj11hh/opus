@@ -1,6 +1,6 @@
-[![Test](https://github.com/jj11hh/opus/actions/workflows/test.yml/badge.svg)](https://github.com/jj11hh/opus/actions/workflows/test.yml)
+[![Test](https://github.com/meokit/opus/actions/workflows/test.yml/badge.svg)](https://github.com/meokit/opus/actions/workflows/test.yml)
 
-This is a fork of `gopkg.in/hraban/opus.v2`, modified to use a WASM build of libopus with wazero, removing the CGo dependency. The modified version is hosted at [github.com/jj11hh/opus](https://github.com/jj11hh/opus).
+This is a fork of `gopkg.in/hraban/opus.v2`, modified to use a WASM build of libopus with wazero, removing the CGo dependency. The modified version is hosted at [github.com/jj11hh/opus](https://github.com/meokit/opus).
 
 ## Go wrapper for Opus
 
@@ -37,9 +37,9 @@ This wrapper interacts with a WASM build of the xiph.org opus library for:
 ### Import
 
 ```go
-import "github.com/jj11hh/opus"
+import "github.com/meokit/opus"
 // or, if you prefer to use the tagged version:
-// import "github.com/jj11hh/opus/v1"
+// import "github.com/meokit/opus/v1"
 ```
 
 ### Encoding
